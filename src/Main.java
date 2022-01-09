@@ -17,11 +17,6 @@ public class Main {
         frame.getContentPane().setLayout(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        /*
-        File audioFile = new File(audioFilePath);
-
-        AudioInputStream audioStream = AudioSystem.getAudioInputStream(audioFile);
-        */
         JFileChooser fc = new JFileChooser();
 
         JTextField path = new JTextField();
