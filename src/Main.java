@@ -13,7 +13,6 @@ public class Main {
     public static void main(String[] args) {
         JFrame frame = new JFrame("Audio Player");
         frame.setSize(500,145);
-        frame.setVisible(true);
         frame.getContentPane().setLayout(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -64,5 +63,7 @@ public class Main {
             }
         });
         frame.add(playAudio);
+        
+        frame.setVisible(true);
     }
 }
